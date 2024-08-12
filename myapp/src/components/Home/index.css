@@ -1,0 +1,165 @@
+.background {
+    background-color: lightblue;
+    min-height: 100vh;
+    padding: 10px;
+    background-size: cover;
+}
+
+
+.main-heading-span {
+    color: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+@media(min-width:768px){
+    .main-heading-span{
+        font-size: 30px;
+    }
+}
+
+.main-heading {
+    font-size: 50px;
+    display: flex;
+    /* text-decoration: underline; */
+    align-items: center;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: space-between;
+}
+
+
+@media (min-width:768px){
+    .input-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    }
+}
+
+
+
+.task-input {
+    width:350px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 30px;
+    /* font-weight: bold; */
+    padding: 10px;
+}
+
+@media(min-width:768px) {
+    .task-input{
+        width: 1000px;
+    }
+
+    
+
+
+}
+
+
+.task-input:focus {
+    outline: none;
+}
+
+.add-btn {
+margin-left: 10px;
+    height: 50px;
+    width: 140px;
+    background-color: violet;
+    border-width: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.dateEl{
+    margin-right: 10px;
+    color: brown;
+    border-radius: 10px;
+    height: 30px;
+    border-width: 0px;
+    padding: 5px;
+}
+.dateEl:focus{
+    outline: none;
+}
+.align{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.choose{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+.tasks-container{
+padding: 0px;
+margin: 0px;
+list-style-type: none;
+}
+
+
+.save-btn{
+    background-color: darkblue;
+    height: 40px;
+    width: 100px;
+    border-width: 0px;
+    border-radius: 10px;
+    color: white;
+
+}
+.btn{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.get-tasks-btn{
+    background-color: red;
+    height: 40px;
+    width: 100px;
+    border-width: 0px;
+    border-radius: 10px;
+    color: white;
+}
+.popup-content{
+    background-color:gray;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.done{
+    height: 40px;
+    width: 80px;
+    border-width: 0px;
+    background-color: black;
+    color: white;
+}
+.errMsg{
+    color: red;
+}
